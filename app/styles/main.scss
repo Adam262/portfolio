@@ -1,9 +1,14 @@
 // bower:scss
+@import '_variables.scss';
+@import '_helpers.scss';
+@import '_components.scss';
+@import '_sections.scss';
 // endbower
 
+
 body {
-  color: #333;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: $primary-font;
+  font-family: $raleway-stack
 }
 
 .browsehappy {

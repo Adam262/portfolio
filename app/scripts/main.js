@@ -3,7 +3,7 @@ $(document).ready(function(){
       
       loopBottom: true,
       loopTop: true,
-      sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke', '#000'],
+      sectionsColor: ['#8FB7D6', '#FFFFFF', '#519E8A', '#808F85', '#0F1108'],
   
     });
 })
