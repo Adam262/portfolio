@@ -7,6 +7,7 @@ This is the redesign of my portfolio site.
 + Yeoman webapp generator
 + SASS
 + PagePiling.js
++ Devicons
 
 **Screenshots**
 

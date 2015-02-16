@@ -1,13 +1,19 @@
 // bower:scss
-@import '_variables.scss';
-@import '_helpers.scss';
-@import '_components.scss';
-@import '_sections.scss';
+// @import '_variables';
+// @import '_helpers';
+// @import '_components';
+// @import '_sections';
 // endbower
+
+@import '_variables';
+@import '_helpers';
+@import '_components';
+@import '_sections';
+@import '../../bower_components/devicons/css/devicons';
 
 
 body {
-  color: $primary-font;
+  color: $font-primary;
   font-family: $raleway-stack
 }
 

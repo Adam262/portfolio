@@ -2,3 +2,15 @@
 .button { 
   background: $section-steel;
 }
+
+.badge {
+  color: $font-primary;
+  font-size: 8em;
+  padding: 2%;
+}
+
+.badge-white {
+  @extend .badge;
+
+  color: $section-white;
+}
