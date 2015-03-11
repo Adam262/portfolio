@@ -14,3 +14,13 @@
 
   color: $section-white;
 }
+
+.social-media-badge {
+  color: $section-grey;
+  font-size: 3em;
+  padding: 0 12%;
+
+  &:hover {
+    color: $section-white
+  }
+}

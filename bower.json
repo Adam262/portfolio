@@ -6,6 +6,7 @@
     "modernizr": "~2.8.2",
     "pagepiling.js": "~0.0.9",
     "Buttons": "~2.0.0",
-    "devicons": "~1.7.0"
+    "devicons": "~1.7.0",
+    "ionicons": "~2.0.1"
   }
 }
