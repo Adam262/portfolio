@@ -15,6 +15,35 @@
   color: $section-white;
 }
 
+.link {
+  border: 0.3em dotted $section-steel;
+  color: black;
+  padding: 1%;
+  text-decoration: none;
+
+  &:hover {
+  background-color: $section-steel; 
+  border: 0.3em dotted $section-turq;
+  color: red; 
+  }
+}
+
+.slide {
+  background: $section-grey;
+  border: 2em solid $section-steel;
+  height: 100vh;
+  text-align: center;
+  width: 50vw !important;
+}
+
+.slider {
+  img {
+      border: 2em solid $section-steel;
+      height: 90vh;
+      width: 60vw !important;
+  }
+}
+
 .social-media-badge {
   color: $section-grey;
   font-size: 3em;
