@@ -15,6 +15,38 @@
   color: $section-white;
 }
 
+.background-image {
+  position: fixed;
+  opacity: 0.25;
+  left: 10em;
+  right: 10em;
+  top: 0em;
+  bottom: 3em;
+  // margin: 1% 0;
+}
+
+.vertical {
+  height: 60em;
+  width: 40em;
+}
+
+.credit-box {
+  position: relative;
+  float: right;
+  border: 0.1em solid $section-white;
+  height: 1.2em;
+  width: 12em;
+  bottom: -15em;
+  right: 15em;
+  padding: 0 1% 3% 1%;
+  text-align: center;
+
+  a {
+    color: $section-steel;
+    text-decoration: none;
+  }
+}
+
 .link {
   border: 0.3em dotted $section-steel;
   color: black;
