@@ -1,0 +1,67 @@
+/*
+w * h
+mobile: 320px x 480px // iPhone 4 portrait
+mobile: 320px x 568px // iPhone 5 portrait 
+phablet        x 768px
+tablet: 768px x 1024px// iPad portrait
+notebook: 1280px x 800px 
+*/
+
+/********** MOBILE**************/
+@media only screen and (max-width:768px) {
+  .badge {
+    font-size: 4em;
+  }
+
+  .background-image {
+    position: relative;
+  }
+
+  .credit-box {
+    bottom: 0;
+    margin: 1% auto;
+    padding: 0;
+    right: 0;
+
+    h5 {
+      margin: 0;
+      padding: 1%;
+      font-size: 0.7em;
+    }
+  }
+
+  .vertical {
+    display: block;
+    height: 27em;
+    left: 0;
+    margin: 0 auto;
+    position: relative;
+    right: 0;
+    width: 18em;
+  }
+
+  .button-giant {
+    font-size: 0.9em;
+    height: 3em;
+    line-height: 0;
+  }
+
+  .social-media a {
+    text-decoration: none;
+  }
+  .social-media-badge {
+    font-size: 2em;
+    padding: 5% 10%;
+  }
+
+  h1 {
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 0.9em;
+    text-align: justify;
+    padding-right: 10%;
+  }
+}
