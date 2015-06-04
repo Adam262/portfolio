@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="bower_components/Buttons/css/buttons.css" />
     <link rel="stylesheet" href="bower_components/devicons/css/devicons.css" />
     <link rel="stylesheet" href="bower_components/ionicons/css/ionicons.css" />
-    <link rel="stylesheet" href="bower_components/bx-slider.js/dist/jquery.bxslider.css" />
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
@@ -102,60 +101,71 @@
 
     <!--  portfolio -->
     <div class="section portfolio">
-        <h1>PORTFOLIO</h1>
-        <div class = 'slider'>
-          <span class = 'slide'>
-            <h2>Schoolhouse Partners</h2>
-            <h3>Site redesign for venture capital firm</h3>
-            <h3>Mobile first design</h3>
-            <h3>Custom animation</h3>
-            <h3>
-              <a href="http://schoolhousepartners.com" target = "_blank" title="" class = "link" >See it live</a>
-            </h3>
-          </span>
+      <h1>PORTFOLIO</h1>
+      <div class="slide">
+        <img class="slide-image" src="./images/screen_home.png" alt="">
+      
+        <div class="slide-text">
+          <h2>Schoolhouse Partners</h2>
+          <h3>Mobile-first site redesign for venture capital firm</h3>
 
-          <img src="./images/screen_home.png" alt="">
+          <h3>
+            <a href="http://schoolhousepartners.com" target = "_blank" title="" class = "link" >See it live</a>
+          </h3>
+        </div>
+      </div>
+        
+      <div class="slide">
+        <img class="slide-image" src="./images/arcade_claw_placeholder.jpg" alt=""> 
 
-          <span class = 'slide'>
-            <h2>Arcade Claw</h2>
-            <h3>A classic arcade game for the modern web</h3>
-            <h3>Allowed players to control a physical claw game via a full stack web app</h3>
-            <h3>Built using Angular, MongoDB and Node</h3>
-            <h3>Live streaming to Twich TV</h3>
-            <h3>Payments via Stripe API</h3>
-            <h3>Driven by a Raspberry Pi and lots of soldering</h3>            
-            <h3>
-              <a href="https://www.youtube.com/watch?v=rdihQQz1ycM" target = "_blank" title="" class = "link" >See it live</a>
-              <a href="http://blog.fullstackacademy.com/post/98279402101/the-arcade-claw-having-fun-while-hacking-hardware#98279402101" target = "_blank" title="" class = "link" >See how it was made</a>
-            </h3>
-          </span>
+        <div class="slide-text">
+          <h2>Arcade Claw</h2>
+          <h3>A classic arcade game for the modern web</h3>          
+          <h3>
+            <a href="https://www.youtube.com/watch?v=rdihQQz1ycM" target = "_blank" title="" class = "link" >See it live</a>
+            <a href="http://blog.fullstackacademy.com/post/98279402101/the-arcade-claw-having-fun-while-hacking-hardware#98279402101" target = "_blank" title="" class = "link" >See the story</a>
+          </h3>
+          <h5>Built with Raspberry Pi</h5>
+        </div>
+      </div>
+       
+      <div class="slide">
+        <img class="slide-image" src="./images/noteify_home.png" alt=""> 
 
-          <img src="./images/arcade_claw_placeholder.jpg" alt=""> 
-          <img src="./images/arcade_claw_profile.png" alt=""> 
-         
-          <span class = 'slide'>
-            <h2>Note-ify</h2>
-            <h3>A full stack web app that allows users to save and rate web content</h3>
-            <h3>Built using Angular, MongoDB and Node</h3>           
-            <h3>
-              <a href="http://note-ify.herokuapp.com/" target = "_blank" title="" class = "link" >See it live</a>
-            </h3>
-          </span>
+        <div class="slide-text">
+          <h2>Note-ify</h2>  
+          <h3>Save and rate web content</h3>    
+          <h3>
+            <a href="http://note-ify.herokuapp.com/" target = "_blank" title="" class = "link" >See it live</a>
+          </h3>
+          <h5>Built with Node.js + Angular</h5>
+        </div>
+      </div>
+      
+      <div class="slide">
+        <img class="slide-image" src="./images/yoviteLanding.png" alt=""> 
 
-          <img src="./images/noteify_home.png" alt=""> 
+        <div class="slide-text">
+          <h2>YoVite</h2> 
+          <h3>Evite app built for 2014 Yo Hackathon</h3>
+          <h3>
+            <a href="http://yovite.herokuapp.com/" target = "_blank" title="" class = "link" >See it live</a>
+          </h3>
+          <h5>Built with Node.js</h5>
+        </div>
+      </div>
 
-          <span class = 'slide'>
-            <h2>YoVite</h2>
-            <h3>An evite app built for Yo Hackathon in 2014</h3>
-            <h3>Added features not available in standard YO app at the time, such as event naming and custom url</h3>
-            <h3>Still runs on Node.js + jQuery</h3>           
-            <h3>
-              <a href="http://yovite.herokuapp.com/" target = "_blank" title="" class = "link" >See it live</a>
-            </h3>
-          </span>
+        <div class="card">
+          <h3>Allowed players to control a physical claw game via a full stack web app</h3>
+          <h3>Built using Angular, MongoDB and Node</h3>
+          <h3>Live streaming to Twich TV</h3>
+          <h3>Payments via Stripe API</h3>
+          <h3>Driven by a Raspberry Pi and lots of soldering</h3>  
+        </div>
 
-          <img src="./images/yoviteLanding.png" alt=""> 
-
+        <div class="card">
+          <h3>save and rate web content</h3>
+          <h3>Built using Angular, MongoDB and Node</h3>
         </div>
     </div>
 
@@ -176,8 +186,7 @@
     <!-- bower:js -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/pagepiling.js/jquery.pagepiling.min.js"></script>
-    <script src="bower_components/bx-slider.js/dist/jquery.bxslider.js"></script>
-    <script src="bower_components/bx-slider.js/dist/jquery.bxslider.min.js"></script>
+    <script src="bower_components/handlebars/handlebars.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 

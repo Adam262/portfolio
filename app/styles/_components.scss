@@ -62,18 +62,30 @@
 
 .slide {
   background: $section-grey;
-  border: 2em solid $section-steel;
-  height: 100vh;
+  border: 1em solid $section-steel;
+  height: 15em;
   text-align: center;
-  width: 50vw !important;
+  width: 15em;
+  float: left;
+  padding: 0.2%;
+
+  img {
+    height: inherit;
+    width: inherit;
+  }
+
+  .slide-text { 
+  display: none;
+  }
+
+  h5 {
+    display: fixed;
+    bottom: 0;
+  }
 }
 
-.slider {
-  img {
-      border: 2em solid $section-steel;
-      height: 90vh;
-      width: 60vw !important;
-  }
+.card {
+  display: none;
 }
 
 .social-media-badge {
