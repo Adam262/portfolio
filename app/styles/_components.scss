@@ -62,12 +62,16 @@
 
 .slide {
   background: $section-grey;
-  border: 1em solid $section-steel;
+  border: 0.5em solid $section-steel;
   height: 15em;
-  text-align: center;
+  margin: 0.5%;
   width: 15em;
   float: left;
   padding: 0.2%;
+
+  h3 {
+    text-align: center;
+  }
 
   img {
     height: inherit;
@@ -76,6 +80,7 @@
 
   .slide-text { 
   display: none;
+  text-align: center;
   }
 
   h5 {
