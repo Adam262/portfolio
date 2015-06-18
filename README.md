@@ -7,15 +7,31 @@ This is the redesign of my portfolio site.
 + Yeoman webapp generator
 + SASS
 + PagePiling.js
-+ Devicons
 
 **Screenshots**
 
 **Challenges**
++ deploying git dist to github pages. The trick is to use git subtree, ie:
+    `git subtree push --prefix dist origin gh-pages`
+
++ getting third-party fonts into dist. `Grunt build` was attributing font libraries to an incorrect url. The trick is to add third-party font libraries explicitly to copy tasks in Gruntfile, ie
+
+```     copy: {
+          dist: {
+            files: [
+              {
+                expand: true,
+                dot: true,
+                cwd: 'bower_components/devicons',
+                src: ['fonts/*.*'],
+                dest: '<%= config.dist %>'
+              }
+            ]
+          }
+        }
+```
 
 **Check It Out**
-
-##Note to Self##
 
 **Grunt Tasks**
 
@@ -34,7 +50,3 @@ Run any test that you have defined for your source.
 *grunt build*
 
 Build the concatenated, minified production version of the source into the `dist` directory.
-
-*grunt deploy*
-
-Deploy the production version of the source to [GitHub Pages](http://pages.github.com/) via [grunt-build-control](https://github.com/robwierzbowski/grunt-build-control).
